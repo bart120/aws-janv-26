@@ -150,7 +150,3 @@ Configurer une notification S3 :
 - Supprimer les buckets S3
 - Supprimer le layer
 - Supprimer les logs CloudWatch si nécessaire
-
----
-
-## ✅ Fin du TP

@@ -103,7 +103,3 @@ S3 (orders/)
 1. Commande valide → PROCESSED + OrdersProcessed
 2. Commande invalide → REJECTED + DLQ + OrdersRejected
 3. Doublon → DUPLICATE + OrdersDuplicate
-
----
-
-## ✅ Fin du TP
