@@ -1,0 +1,7 @@
+docker build -t orders-api:v1 .
+
+aws ecr get-login-password --region {REGION}  | docker login --username AWS --password-stdin {ID_COMPTE}.dkr.ecr.{REGION}.amazonaws.com
+
+docker tag orders-api:v1 {ID_COMPTE}.dkr.ecr.{REGION}.amazonaws.com/formation/tp-api-orders:v1
+
+docker push {ID_COMPTE}.dkr.ecr.{REGION}.amazonaws.com/formation/tp-api-orders:v1
